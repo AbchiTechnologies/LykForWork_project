@@ -1,0 +1,89 @@
+#notes-table-wrapper {
+  display: block;
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  
+}
+
+#notes-table-wrapper #keywords {
+  margin: 0 auto;
+  font-size: 1.2em;
+  width: 100%;
+}
+
+#notes-table-wrapper #keywords thead {
+  cursor: pointer;
+  background: #e3e8ec;
+}
+#notes-table-wrapper #keywords thead tr th {
+  font-weight: bold;
+  padding: 10px 0;
+  font-size: 15px;
+  width: 12%;
+  color: #8f9bb3;
+  text-align: center;
+  border-right: 1px solid rgba(172, 165, 165, 0.384);
+}
+#notes-table-wrapper #keywords thead tr th:first-child {
+  width: 25%;
+  text-align: left;
+  padding-left: 20px;
+}
+#notes-table-wrapper #keywords thead tr th:last-child {
+  width: 25%;
+  border: none;
+}
+#notes-table-wrapper #keywords tbody tr {
+  color: #555;
+}
+#notes-table-wrapper #keywords tbody tr td {
+  padding: 15px 20px;
+  font-size: 14px;
+  text-align: center;
+  border-right: 1px solid rgba(172, 165, 165, 0.384);
+}
+#notes-table-wrapper #keywords tbody tr td:first-child {
+  text-align: left;
+}
+#notes-table-wrapper #keywords tbody tr td:last-child {
+  border: none;
+}
+.lalign i {
+  position: relative;
+  width: 30px;
+}
+
+.notes-table-img img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+#notes-table-wrapper #keywords tbody tr td a {
+  justify-content: space-between;
+}
+.notes-add-btn{
+    padding: 5px 8px;
+    border-radius: 15px;
+    background-color: #5CC5D0;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+@media only screen and (max-width: 1100px){
+    #notes-table-wrapper{
+        overflow: scroll;
+    }
+    #notes-table-wrapper #keywords {
+    width: 170%;
+}
+.notes-add-btn{
+    top: 10px;
+}
+.tab-label{
+    margin-right: 10px;
+}
+}

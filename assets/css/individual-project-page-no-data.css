@@ -1,0 +1,177 @@
+/*individual-project-creation css*/
+
+.individual-project-creation-no-data .row-all-between{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.individual-project-creation-no-data .h3-heading{
+	margin-bottom: 15px;
+}
+
+.individual-project-creation-no-data .h4-heading{
+    color: #898989;
+    margin-bottom: 20px;
+}
+
+.individual-project-creation-no-data .h4-heading span{
+    border-bottom: 2px solid #3ab7bb;
+    color: #000;
+    margin-right: 10px;
+}
+
+.individual-project-creation-no-data h3 .light_clr{
+    color: #898989;
+}
+
+.individual-project-creation-no-data .form-control{
+	width: 45%;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid #898989;
+}
+
+.individual-project-creation-no-data .form-control1{
+	width: 53%;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid #898989;
+}
+
+.individual-project-creation-no-data .form-control2{
+	width: 94%;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid #898989;
+}
+
+.individual-project-creation-no-data .project-topic .box1{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 0 0 30px;
+}
+
+.individual-project-creation-no-data .task-topic{
+	position: relative;
+}
+
+.individual-project-creation-no-data .add_task_btn{
+	background-color: #fff;
+	width: 30%;
+	padding: 10px ;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+.individual-project-creation-no-data .add_task_btn svg{
+	padding-right: 10px;
+}
+
+.individual-project-creation-no-data
+.add_task_btn .hydrated {
+    font-size: 25px;
+    color: #3ab7bb; 
+}
+
+.individual-project-creation-no-data .add_task_btn p{
+	font-size: 13px;
+	padding-top: 4px;
+}
+
+
+
+
+/*media query start*/
+
+@media (max-width: 1280px){
+
+.individual-project-creation-no-data .form-control {
+    width: 43%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #898989;
+}
+
+}
+
+
+
+@media (max-width: 1176px){
+
+.individual-project-creation-no-data .add_task_btn {
+    width: 40%;
+}
+
+.individual-project-creation-no-data .form-control {
+    width: 42%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #898989;
+}
+
+
+
+}
+
+@media (max-width: 1024px){
+
+.individual-project-creation-no-data
+.project-topic .box1 .row{
+	display: block;
+}
+
+.individual-project-creation-no-data 
+.project-topic .box1 .form-control{
+    width: 86%;
+}
+
+.individual-project-creation-no-data 
+.project-topic .box1 .form-control1{
+    width: 92%;
+}
+
+.individual-project-creation-no-data .add_task_btn {
+    width: 94%;
+}
+
+.individual-project-creation-no-data .modal-content {
+    top: 50%;
+    left: 50%;
+}
+
+}
+
+@media (max-width: 912px){
+
+.individual-project-creation-no-data .modal-content {
+    top: 23%;
+    left: 50%;
+}
+
+}
+
+@media (max-width: 820px){
+
+.individual-project-creation-no-data .modal-content {
+    top: 30%;
+    left: 50%;
+}
+	
+}
+
+
+@media (max-width: 768px){
+
+.individual-project-creation-no-data .project-topic .box1 .form-control1 {
+    width: 93%;
+}
+
+}
+

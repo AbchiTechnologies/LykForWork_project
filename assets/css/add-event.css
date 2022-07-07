@@ -1,0 +1,312 @@
+.add-event-wrap {
+  justify-content: space-between;
+}
+.add-event-left {
+  width: 48%;
+}
+.add-event-right {
+  width: 48%;
+}
+#event-name {
+  width: 93%;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #e1e2e5;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+.add-event-left form {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+.add-event-left form textarea {
+  width: 93%;
+  height: 102px;
+  border-radius: 10px;
+  border: 1px solid #e1e2e5;
+  margin-bottom: 10px;
+  padding: 7px 10px;
+  color: #858988;
+  font-family: "Lato";
+  resize: none;
+}
+.add-event-start-date {
+  width: 93%;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #e1e2e5;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+.add-event-start-time {
+  width: 93%;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #e1e2e5;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  color: #858988;
+}
+
+.add-event-add-cover button {
+  background-color: #5cc5d0;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 25px;
+}
+.add-event-add-cover {
+  justify-content: space-between;
+  width: 93%;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #e1e2e5;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  color: #858988;
+  background: #fff;
+}
+.add-event-add-cover p {
+  font-size: 14px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 50;
+}
+
+/* Modal Content */
+.modal-content {
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 360px;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 50%;
+    opacity: 1;
+  }
+}
+
+.close {
+  border: 1px solid #000;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+
+.close:hover,
+.close:focus {
+  color: #5cc5d0;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #5cc5d0;
+}
+
+.modal-header {
+  padding: 12px 0px;
+  text-align: center;
+}
+.modal-body {
+  padding: 10px 25px;
+}
+.modal-body img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #faa61a;
+  color: rgb(139, 0, 0);
+  font-size: 12px;
+  text-align: center;
+}
+.modal-member {
+  position: relative;
+  padding: 10px;
+}
+.modal-body a.modal-member:nth-child(1) {
+  color: #5cc5d0;
+}
+.modal-body a.modal-member:nth-child(3) {
+  color: #5cc5d0;
+}
+.my-file-modal-right-icon {
+  position: absolute;
+  right: 0;
+}
+.modal-btn {
+  margin: 10px 0;
+  margin-bottom: 23px;
+}
+.modal-btn a {
+  padding: 8px 10px;
+  background-color: #5cc5d0;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+.modal-wrap {
+  height: 500px;
+  overflow: scroll;
+}
+.add-event-link {
+  width: 93%;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #e1e2e5;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  color: #858988;
+}
+.add-event-left h3 {
+  margin-bottom: 20px;
+}
+/* toggle in label designing */
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 65px;
+  height: 30px;
+
+  border-radius: 30px;
+  border: 1px solid #d9d9d9;
+  margin-left: 15px;
+}
+/* After slide changes */
+.toggle:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  top: 3px;
+  left: 3px;
+  transition: all 0.5s;
+}
+
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+  left: 35px;
+}
+
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+  background-color: #5cc5d0;
+}
+
+/* Checkbox vanished */
+.checkbox {
+  display: none;
+}
+
+.add-event-right h3 {
+  margin-bottom: 20px;
+}
+
+.send-invite p {
+  color: #858988;
+}
+.send-invite {
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.preview-ban img {
+  width: 100%;
+}
+.preview-ban {
+  margin-bottom: 25px;
+}
+.preview-wrap h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.preview-detail {
+  font-size: 16px;
+  color: #838383;
+
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.preview-items {
+  color: #858988;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.preview-items span {
+  color: #2e2e2e;
+}
+.add-event-btn a {
+  background: #5cc5d0;
+  padding: 10px;
+  border-radius: 28px;
+
+  color: #fff;
+}
+.preview-wrap {
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 1024px) {
+  .add-event-wrap {
+    flex-wrap: wrap;
+  }
+  .add-event-left {
+    width: 100%;
+  }
+  .add-event-right {
+    width: 100%;
+  }
+  .add-event-right h3 {
+    margin-top: 10px;
+  }
+}

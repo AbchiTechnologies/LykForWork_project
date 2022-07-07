@@ -1,0 +1,361 @@
+.right-top-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.right-top-right {
+  margin-left: 15px;
+}
+.right-top-right h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.right-head h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.right-head {
+  margin-bottom: 20px;
+}
+.right-bottom p {
+  color: #858988;
+  font-size: 12px;
+  margin-left: 34px;
+  margin-bottom: 18px;
+}
+.right-separator {
+  background: #ebeff2;
+  height: 1px;
+  margin-bottom: 20px;
+}
+.feed-dropdown-wrapper .dropdown-content {
+  right: -124px;
+}
+.back-btn {
+  margin-top: 180px;
+  text-align: end;
+}
+.back-btn a {
+  background-color: #5cc5d0;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+.indgrp-img {
+  margin-top: 20px;
+}
+.indgrp-img img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.right-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.ind-grp-header-wrap {
+  position: relative;
+}
+.ind-group-ban img {
+  width: 100%;
+}
+.ind-group-dp {
+  position: absolute;
+  top: 80%;
+  left: 4%;
+}
+.group-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8px;
+}
+.groupinfo-left h3 {
+  margin-left: 20px;
+}
+.group-info-right {
+  display: flex;
+  align-items: center;
+}
+.group-info-right a {
+  margin-left: 35px;
+}
+.group-info-left {
+  margin-left: 80px;
+}
+.grp-description {
+  margin-top: 30px;
+}
+.grp-description p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 50;
+}
+
+/* Modal Content */
+.modal-content {
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 360px;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 50%;
+    opacity: 1;
+  }
+}
+
+.close {
+  border: 1px solid #000;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+
+.close:hover,
+.close:focus {
+  color: #5cc5d0;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #5cc5d0;
+}
+
+.modal-header {
+  padding: 12px 0px;
+  text-align: center;
+}
+.modal-body {
+  padding: 10px 25px;
+}
+.modal-body img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #faa61a;
+  color: rgb(139, 0, 0);
+  font-size: 12px;
+  text-align: center;
+}
+.modal-member {
+  position: relative;
+  padding: 10px;
+}
+.modal-body a.modal-member:nth-child(1) {
+  color: #5cc5d0;
+}
+.modal-body a.modal-member:nth-child(3) {
+  color: #5cc5d0;
+}
+.my-file-modal-right-icon {
+  position: absolute;
+  right: 0;
+}
+.modal-btn {
+  text-align: center;
+  margin: 10px 0;
+}
+.modal-btn a {
+  padding: 8px 10px;
+  background-color: #5cc5d0;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+.modal-wrap {
+  height: 500px;
+  overflow: scroll;
+}
+
+.grp-members-search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25px;
+}
+.grp-members-search p {
+  color: #838383;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.grp-members-search form input {
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #e1e2e5;
+  background: none;
+  padding: 0 7px;
+}
+.grp-members-search form input:focus {
+  border: none;
+  color: none;
+}
+.grp-members-search form ::placeholder {
+  color: #2e2e2e;
+  font-size: 14px;
+}
+.grp-members-search form button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 90%;
+  background: none;
+  border: none;
+}
+.grp-members-search form {
+  position: relative;
+  margin-right: 15px;
+}
+.ind-group-add-people-btn button {
+  background: #5cc5d0;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 14px;
+}
+.meeting-wrapper .tabs {
+  margin-bottom: 10px;
+}
+.tab-switch {
+  display: none;
+}
+.tab-label {
+  position: relative;
+  display: block;
+  line-height: 2.75em;
+  height: 3em;
+  padding: 0 1.618em;
+  background: #fff;
+  color: #2c3e50;
+  cursor: pointer;
+  top: 0;
+  transition: all 0.25s;
+  border-radius: 30px;
+}
+
+.tab-content {
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-radius: 15px;
+  border-radius: 15px;
+  opacity: 0;
+  transition: all 0.35s;
+}
+.tab-switch:checked + .tab-label {
+  background: #5cc5d0;
+  color: #fff;
+  border-bottom: 0;
+  transition: all 0.35s;
+  z-index: 1;
+  top: -0.0625rem;
+  border-radius: 30px;
+}
+.tab-switch:checked + label + .tab-content {
+  z-index: 2;
+  opacity: 1;
+  transition: all 0.35s;
+}
+.tab-content #meetCalendar {
+  padding: 20px 10px;
+}
+.tab-content #meetCalendarweek {
+  padding: 20px 10px;
+}
+
+.tabs {
+  position: relative;
+}
+.tabs::before {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  height: 100%;
+  width: 50px;
+}
+.grp-toggle .tabs {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .group-info {
+    flex-wrap: wrap;
+  }
+  .group-info-left {
+    margin-left: 139px;
+  }
+  .group-info-right {
+    margin-left: 102px;
+    margin-top: 16px;
+  }
+  .grp-members-search {
+    flex-wrap: wrap;
+  }
+  .ind-group-add-people-btn {
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 952px) {
+  .group-info-right {
+    flex-wrap: wrap;
+  }
+}
